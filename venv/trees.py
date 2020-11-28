@@ -11,6 +11,7 @@ Created on Thu Nov 12 17:42:29 2020
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+# Let's consider geopandas and pandas as well!
 
 
 with open('trees.geojson', 'r') as trees_file:
@@ -58,7 +59,7 @@ for f in trees['features']:
 plt.figure(figsize=(10,10))
 plt.grid()
 plt.imshow(arr, cmap='viridis')
-
+plt.show()
 
 
 
