@@ -60,10 +60,3 @@ plt.figure(figsize=(10,10))
 plt.grid()
 plt.imshow(arr, cmap='viridis')
 plt.show()
-
-
-
-
-
-
-
